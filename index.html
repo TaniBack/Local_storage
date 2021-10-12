@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <title>Ejercicio de Local Storage</title>
+</head>
+<body>
+    <h1>Formulario de contacto - Local Storage</h1>
+    <section>
+    <!-- Crear un formulario de contacto con los siguientes campos: Nombre / Email / Mensaje -->
+        <form name="formOne" id="formOne">
+            <label for="fname">Nombre</label>
+            <input type="text" name="fname" id="fname" required> 
+
+            <br>
+
+            <label for="femail">E-Mail</label>
+            <input type="email" name="femail" id="femail" required> 
+
+            <br>
+
+            <label for="fmessage">Mensaje</label><br>
+            <textarea name="fmessage"  id="fmessage" cols="30" rows="5" required></textarea> 
+            <br>
+            <input type="submit" id="form_button" name="submit" value="Enviar" onclick="processFormData()"/>
+        </form>
+    </section>
+</body>
+</html>
